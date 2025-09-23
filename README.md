@@ -1,16 +1,15 @@
-# gamebox
+# Gamebox
 
-A new Flutter project.
+## Présentation
+Ce projet est une application Flutter regroupant différents **mini-jeux artisanaux**.  
+Elle a été pensée dans un cadre **RP (roleplay)**, inspiré de l’univers de Naruto.  
 
-## Getting Started
+L’idée est simple :  
+- Mon personnage est un jeune ninja de Kiri passionné par la création de casse-têtes et de jouets.  
+- Cette application représente **son coffre personnel**, un espace où il range et partage toutes ses inventions.  
 
-This project is a starting point for a Flutter application.
+## Jeux inclus
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pourquoi ce projet ?
+- Donner vie au personnage RP en matérialisant ses créations.  
+- Proposer un support ludique aux autres joueurs (les jeux sont jouables hors RP).
