@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -14,7 +15,9 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: Text('Home Page'),
+          child: ElevatedButton(onPressed: () {
+            context.go('/suite-interdite');
+          }, child: Text("Go Jeu")),
         ),
       ),
     );
