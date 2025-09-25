@@ -44,7 +44,7 @@ class _StartButtonState extends State<StartButton> {
               fontSize: provider.isGameStarted ? 16 : 18,
             ),
             duration: const Duration(milliseconds: 200),
-            child: const Text("Start"),
+            child: const Text("Lancer"),
           ),
         ),
       ),

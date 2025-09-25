@@ -95,7 +95,7 @@ class _ForbiddenSequelState extends State<ForbiddenSequel> {
                       width: 25,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: provider.isGameLose ? Colors.red : Colors.grey,
+                        color: provider.isGameLose ? Colors.red : Colors.black,
                       ),
                     ),
                   ),
