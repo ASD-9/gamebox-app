@@ -2,14 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:gamebox/features/forbidden_sequel/forbidden_sequel_provider.dart';
 import 'package:provider/provider.dart';
 
-class StartButton extends StatefulWidget {
+class StartButton extends StatelessWidget {
   const StartButton({super.key});
 
-  @override
-  State<StartButton> createState() => _StartButtonState();
-}
-
-class _StartButtonState extends State<StartButton> {
   @override
   Widget build(BuildContext context) {
     final ForbiddenSequelProvider provider = Provider.of<ForbiddenSequelProvider>(context);
