@@ -15,9 +15,46 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         child: Center(
-          child: ElevatedButton(onPressed: () {
-            context.go('/suite-interdite');
-          }, child: Text("Go Jeu")),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            spacing: 25,
+            children: [
+              GameButton(title: "La suite interdite", onPressed: () => context.go('/suite-interdite')),
+              GameButton(title: "Activation", onPressed: () => context.go('/activation')),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class GameButton extends StatelessWidget {
+  final String title;
+  final VoidCallback onPressed;
+
+  const GameButton({super.key, required this.title, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.red.shade700,
+        padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+          side: const BorderSide(color: Colors.black, width: 3),
+        ),
+        elevation: 8,
+        shadowColor: Colors.black54,
+      ),
+      child: Text(
+        title,
+        style: const TextStyle(
+          fontSize: 24,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
         ),
       ),
     );
