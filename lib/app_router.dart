@@ -6,7 +6,7 @@ import 'package:web/web.dart';
 
 GoRouter getAppRouter() {
   return GoRouter(
-    initialLocation: '/activation',
+    initialLocation: '/',
     routes: [
       GoRoute(
         path: '/',
