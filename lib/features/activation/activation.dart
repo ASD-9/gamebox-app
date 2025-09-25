@@ -29,7 +29,7 @@ class Activation extends StatelessWidget {
         ),
         child: Center(
           child: Container(
-            height: MediaQuery.of(context).size.height * 0.7,
+            height: 700,
             width: 400,
             padding: EdgeInsets.all(30),
             decoration: BoxDecoration(
